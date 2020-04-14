@@ -5,7 +5,7 @@ class Student
   def initialize(name, grade, id=nill)
     @name = name
     @grade = grade
-    @id = id 
+    @id = id
   end
 
   def self.create_table
@@ -24,11 +24,11 @@ class Student
     SQL
     DB[:conn].execute(sql)
   end
-  
-  def save(name, ) 
+
+  def save(name, )
     sql = <<- SQL
       INSERT INTO students()
     SQL
-  end 
+  end
 
 end
